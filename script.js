@@ -35,7 +35,7 @@ function getSavedColumns() {
     backlogListArray = ['Rate both games with 5 star', 'Sit back and relax'];
     progressListArray = ['Work on projects in minecraft', 'Defeat King slime in terria'];
     completeListArray = ['Creat a youtube channl', 'Getting stuff done'];
-    onHoldListArray = ['dieing in both game'];
+    onHoldListArray = ['die in both game'];
   }
 }
 
