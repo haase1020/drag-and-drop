@@ -127,6 +127,15 @@ function addToColumn(column) {
   updateDOM(column);
 }
 
+// remove to Column List, Reset Textbox
+function addToColumn(column) {
+  const itemText = removeItems[column].textContent;
+  const selectedArray = listArrays[column];
+  selectedArray.push(itemText);
+  removeItems[column].textContent = '';
+  updateDOM(column);
+}
+
 // Show Add Item Input Box
 function showInputBox(column) {
   addBtns[column].style.visibility = 'hidden';

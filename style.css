@@ -143,7 +143,7 @@ ul {
 
 .drag-item:focus {
   outline: none;
-  background-color: rgb(10, 88, 255);
+  background-color: rgb(10, 161, 255);
   color: #ffffff;
 }
 
